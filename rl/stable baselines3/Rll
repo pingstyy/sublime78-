@@ -1,0 +1,11 @@
+1 Markov decision process - State depends only on previous state and action 
+States - some convenient representation of theenvironment
+Rules that govern state changes => Dynamics
+Actions - 
+
+The Agent's Policy [PI]
+    - Mapping of states to actions 
+    - Assigns probability to actions
+    [ Reward, Penalty]
+
+    Dynamic 

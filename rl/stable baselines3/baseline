@@ -1,0 +1,19 @@
+#stable baselines3 uses pytorch in backend
+# pip3 install gym[box2d]
+
+env , model= algo, agent, observation= sensor, action= step(progress in env) 
+Action Space    ==========    discrete | continuos 
+
+import gym
+env  = gym.make("LunarLander-v2")
+
+print("sample action: ", env.action_space.sample())
+print("observation space shape", env.observation_space.shape)
+print("sample observation ", env.observation_space.sample() )
+
+
+
+env.close()
+
+
+
